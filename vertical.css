@@ -1,0 +1,82 @@
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.container2 {
+    background-color: rgb(21, 122, 236) ;
+    width:300px;
+    border-radius: 10px;
+    color: white;
+    margin-left:40px;
+}
+
+.container2 .heading {
+    cursor: pointer;
+    font-size: 35px;
+    margin-left:30px;
+    padding-top: 30px;
+    margin-bottom: 0;
+}
+
+.container2 hr {
+    border-top: px solid white;
+    width: 80%;
+    opacity: 0.8;
+    margin-bottom: 40px;
+}
+
+.container2 ul {
+    margin-top: 20;
+    padding-left: 30px;
+}
+
+.container2 ul i {
+    margin-left: 10px;
+    margin-right:15px;
+}
+
+.container2 ul li {
+    display: block;
+    list-style-type: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    width: 89%;
+}
+
+ul li:hover {
+    background-color: white;
+    border-radius: 5px;
+    color: rgb(21, 122, 236);
+}
+
+li a {
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+
+.container2 ul li:hover a {
+    color: rgb(21, 122, 236);
+}
+
+
+.container2 .settings {
+    cursor: pointer;
+    border: none;
+    font-size: 22px;
+    color: white;
+    background-color: transparent;
+    padding: 8px 16px;
+    margin-left:px;
+    margin-top: 120px;
+    padding-bottom: 30px;
+}
+
+.container2 .settings > i {
+    margin-left: 20px;
+    margin-right: 15px;
+}
+
